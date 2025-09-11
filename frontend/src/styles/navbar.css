@@ -33,7 +33,84 @@
 
 .navbar-logo:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 8px #b3a29f) brightness(1.1);
+    filter: drop-shadow(0 0 8px #F5F5F5) brightness(1.1);
 }
 
 
+.nav-link {
+    color: #F5F5F5 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 6px #8b7d7b) brightness(1.5);
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-btn-register {
+    color: #F5F5F5;
+    border: 2px solid #f5e8d3;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-btn-register:hover {
+    background-color: #F5F5F5;
+    color: #111E33;
+    transform: scale(1.09);
+}
+
+.nav-btn-login {
+    background-color: #F5F5F5;
+    color: #111E33;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-btn-login:hover {
+    background-color: #F5F5F5;
+    color: #111E33;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 6px #8b7d7b) brightness(1.5);
+}
+
+@media (max-width: 991px) {
+    .nav-mobile-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .nav-mobile-center .nav-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .nav-btn-register,
+    .nav-btn-login {
+        display: inline-block;
+        text-align: center;
+        padding: 6px 16px;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+}
