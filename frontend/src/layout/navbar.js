@@ -6,13 +6,12 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className="main-content">
             <div className="container-fluid d-flex justify-content-start align-items-center">
                 <Link className="navbar-brand" to="/">
                     <img src="/assets/VetSecure-Logo-White.png" alt="VetSecure Logo" className="navbar-logo" />
                 </Link>
             </div>
-            </div>
+
         </nav>
 
     );
