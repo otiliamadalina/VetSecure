@@ -1,0 +1,29 @@
+.bg-custom {
+    background-color: #111E33;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #111E33;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    z-index: 100;
+}
+
+.footer-text {
+    color: #F5F5F5;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+

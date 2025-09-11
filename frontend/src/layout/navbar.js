@@ -40,7 +40,7 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link className="btn nav-btn-register me-2" to="/volunteerOrOrg">Register</Link>
+                            <Link className="btn nav-btn-register me-2" to="/register">Register</Link>
                         </li>
 
                         <li className="nav-item mt-2 mt-lg-0">
