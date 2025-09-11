@@ -1,4 +1,14 @@
-body, html {
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #f5e8d3;
+}
+
+main {
+    padding: 20px;
 }
